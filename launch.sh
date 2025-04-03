@@ -21,7 +21,7 @@ fi
 
 
 if ! [[ -f "Vault-Hunters-3rd-Edition-3.17.1.0-server-files.zip" ]]; then
-  rm -fr config mods defaultconfigs scripts forge-*.jar start.sh *Server.zip
+  rm -fr config mods defaultconfigs scripts forge-*.jar start.sh *.zip
 	curl -Lo 'Vault-Hunters-3rd-Edition-3.17.1.0-server-files.zip' 'https://edge.forgecdn.net/files/6377/659/Vault-Hunters-3rd-Edition-3.17.1.0-server-files.zip' && unzip -u -o 'Vault-Hunters-3rd-Edition-3.17.1.0-server-files.zip' -d /data
   curl -Lo forge-${FORGE_VERSION}-installer.jar 'https://maven.minecraftforge.net/net/minecraftforge/forge/'${FORGE_VERSION}'/forge-'${FORGE_VERSION}'-installer.jar'
   java -jar forge-${FORGE_VERSION}-installer.jar --installServer && rm -f forge-${FORGE_VERSION}-installer.jar
