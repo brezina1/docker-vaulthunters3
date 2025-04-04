@@ -27,6 +27,10 @@ if ! [[ -f "Vault-Hunters-3rd-Edition-3.17.1.0-server-files.zip" ]]; then
   java -jar forge-${FORGE_VERSION}-installer.jar --installServer && rm -f forge-${FORGE_VERSION}-installer.jar
 fi
 
+# Patch for 3.17.1.0
+rm -f mods/torohealth-1.18-forge-2.jar 
+rm -f mods/LegendaryTooltips-1.18.2-1.3.1.jar
+
 if [[ -n "$JVM_OPTS" ]]; then
   sed -i '/-Xm[s,x]/d' user_jvm_args.txt
   for j in ${JVM_OPTS}; do sed -i '$a\'$j'' user_jvm_args.txt; done
