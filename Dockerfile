@@ -2,9 +2,9 @@
 
 FROM openjdk:17.0.2-jdk-buster
 
-LABEL version="3.19.6"
+LABEL version="3.19.6.2"
 LABEL homepage.group=Minecraft
-LABEL homepage.name="Vault Hunters Official Pack (3rd Ed.)-3.19.6"
+LABEL homepage.name="Vault Hunters Official Pack (3rd Ed.)-3.19.6.2"
 LABEL homepage.icon="https://media.forgecdn.net/avatars/1477/93/638958872312463958.png"
 LABEL homepage.widget.type=minecraft
 LABEL homepage.widget.url=udp://VaultHunters3rdEdition:25565
