@@ -1,4 +1,4 @@
-# [Vault Hunters Official Pack (3rd Ed.)-3.19.6.4](https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2) on Curseforge
+# [Vault Hunters Official Pack (3rd Ed.)-3.19.6.4](https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2) on Curseforge with Java 17.0.12
 
 <!-- toc -->
 
